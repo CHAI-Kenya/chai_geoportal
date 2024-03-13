@@ -1920,10 +1920,56 @@
                     "caption": "line"
                 },
                 "gauge": {
-                    "title": "Gauge Chart",
-                    "description": "Create a gauge chart to add to the map",
+                    "title": "Bar and line Chart",
+                    "description": "Create a bar and line chart to add to the map",
                     "caption": "gauge"
+                },
+                "groupedBar": {
+                    "title": "Grouped Bar Chart",
+                    "description": "Create a grouped bar chart to add to the map",
+                    "caption": "groupedBar"
+                },
+                "groupedLineMarker": {
+                    "title": "Grouped Line Chart with Markers",
+                    "description": "Create a grouped line chart with markers to add to the map",
+                    "caption": "groupedLineMarker"
+                },
+                "overlaidArea": {
+                    "title": "Basic Overlaid Area Chart",
+                    "description": "Create a basic overlaid area chart to add to the map",
+                    "caption": "overlaidArea"
+                },
+                "scatterChart": {
+                    "title": "Scatter Chart",
+                    "description": "Create a scatter chart to add to the map",
+                    "caption": "scatterChart"
+                },
+                "bubbleChart": {
+                    "title": "Bubble Chart",
+                    "description": "Create a bubble chart to add to the map",
+                    "caption": "bubbleChart"
+                },
+                "donutChart": {
+                    "title": "Donut Chart",
+                    "description": "Create a donut chart to add to the map",
+                    "caption": "donutChart"
+                },
+                "stackedBar": {
+                    "title": "Stacked Bar Chart",
+                    "description": "Create a stacked bar chart to add to the map",
+                    "caption": "stackedBar"
+                },
+                "horizontalStackedBar": {
+                    "title": "Horizontal Stacked Bar Chart",
+                    "description": "Create a horizontal stacked bar chart to add to the map",
+                    "caption": "horizontalStackedBar"
+                },
+                "horizontalGroupedBar": {
+                    "title": "Horizontal Grouped Bar Chart",
+                    "description": "Create a horizontal Grouped bar chart to add to the map",
+                    "caption": "horizontalGroupedBar"
                 }
+
             },
             "chartOptionsTitle": "Configure data",
             "widgetOptionsTitle": "Configure Widget Info",
@@ -1944,22 +1990,67 @@
                 "pie": "Group By",
                 "bar": "X Attribute",
                 "gauge": "Group By",
+                "groupedBar": "X Attribute",
+                "groupedLineMarker": "X Attribute",
+                "overlaidArea": "X Attribute",
+                "scatterChart": "X Attribute",
+                "bubbleChart": "Group By",
+                "donutChart": "Group By",
+                "stackedBar": "X Attribute",
+                "horizontalStackedBar": "X Attribute",
+                "horizontalGroupedBar": "X Attribute",
                 "counter": "Group By",
                 "default": "Group By"
+            },
+            "aggregationAttribute1": {
+                "line": "Y Attribute 2",
+                "pie": "Use 2",
+                "bar": "Y Attribute 2",
+                "gauge": "Use 2",
+                "groupedBar": "Y Attribute 2",
+                "groupedLineMarker": "Y Attribute 2",
+                "overlaidArea": "Y Attribute 2",
+                "scatterChart": "Y Attribute 2",
+                "bubbleChart": "Use 2", 
+                "donutChart": "Use 2",
+                "stackedBar": "Y Attribute 2",
+                "horizontalStackedBar": "Y Attribute 2",
+                "horizontalGroupedBar": "Y Attribute 2",
+                "counter": "Use 2",
+                "default": "Use 2"
             },
             "aggregationAttribute": {
                 "line": "Y Attribute",
                 "pie": "Use",
                 "bar": "Y Attribute",
                 "gauge": "Use",
+                "groupedBar": "Y Attribute",
+                "groupedLineMarker": "Y Attribute",
+                "overlaidArea": "Y Attribute",
+                "scatterChart": "Y Attribute",
+                "bubbleChart": "Use", 
+                "donutChart": "Use",
+                "stackedBar": "Y Attribute",
+                "horizontalStackedBar": "Y Attribute",
+                "horizontalGroupedBar": "Y Attribute",
                 "counter": "Use",
                 "default": "Use"
             },
+            
             "aggregateFunction": {
                 "line": "Operation",
                 "pie": "Operation",
                 "bar": "Operation",
                 "gauge": "Operation",
+                "groupedBar": "Operation",
+                "groupedLineMarker": "Operation",
+                "overlaidArea": "Operation",
+                "scatterChart": "Operation",
+                "bubbleChart": "Operation",
+                "donutChart": "Operation",
+                "stackedBar": "Operation",
+                "horizontalStackedBar": "Operation",
+                "horizontalGroupedBar": "Operation",
                 "counter": "Operation",
                 "default": "Operation"
             },
@@ -1968,6 +2059,15 @@
                 "pie": "Color Ramp",
                 "bar": "Color",
                 "gauge": "Color",
+                "groupedBar": "Color",
+                "groupedLineMarker": "Color",
+                "overlaidArea": "Color",
+                "scatterChart": "Color",
+                "bubbleChart": "Color",
+                "donutChart": "Color",
+                "stackedBar": "Color",
+                "horizontalStackedBar": "Color",
+                "horizontalGroupedBar": "Color",
                 "counter": "Color",
                 "default": "Color"
             },
@@ -1976,6 +2076,15 @@
                 "pie": "Unit of measure",
                 "bar": "Unit of measure",
                 "gauge": "Unit of measure",
+                "groupedBar": "Unit of measure",
+                "groupedLineMarker": "Unit of measure",
+                "overlaidArea": "Unit of measure",
+                "scatterChart": "Unit of measure",
+                "bubbleChart": "Unit of measure",
+                "donutChart": "Unit of measure",
+                "stackedBar": "Unit of measure",
+                "horizontalStackedBar": "Unit of measure",
+                "horizontalGroupedBar": "Unit of measure",
                 "counter": "Unit of measure",
                 "default": "Unit of measure"
             },
@@ -1984,7 +2093,16 @@
                 "line": "Display Legend",
                 "pie": "Display Legend",
                 "bar": "Display Legend",
-                "gauge": "Display labels"
+                "gauge": "Display labels",
+                "groupedBar": "Display Legend",
+                "groupedLineMarker": "Display Legend",
+                "overlaidArea": "Display Legend",
+                "scatterChart": "Display Legend",
+                "bubbleChart": "Display Legend",
+                "donutChart": "Display Legend",
+                "stackedBar": "Display Legend",
+                "horizontalStackedBar": "Display Legend",
+                "horizontalGroupedBar": "Display Legend"
             },
             "advanced": {
               "displayCartesian": "Hide Grid",
