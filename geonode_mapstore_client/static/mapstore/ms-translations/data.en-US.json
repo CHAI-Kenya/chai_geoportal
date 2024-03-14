@@ -1930,8 +1930,8 @@
                     "caption": "groupedBar"
                 },
                 "groupedLineMarker": {
-                    "title": "Grouped Line Chart with Markers",
-                    "description": "Create a grouped line chart with markers to add to the map",
+                    "title": "Grouped Line Chart",
+                    "description": "Create a grouped line chart to add to the map",
                     "caption": "groupedLineMarker"
                 },
                 "overlaidArea": {
@@ -2122,6 +2122,7 @@
               "yAxis":  "Y axis",
               "yAxisType": "Type",
               "yAxisLabel": "Legend Label",
+              "yAxisLabel1": "Legend 1 Label",
               "title": "Advanced Options",
               "legend": "Legend",
               "barChartType": "Bar Chart Type",
