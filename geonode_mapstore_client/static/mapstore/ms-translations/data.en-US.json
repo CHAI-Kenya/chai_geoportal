@@ -1753,13 +1753,13 @@
         },
         "widgets": {
             "types": {
-                "map": {
-                    "title": "Map",
-                    "caption": "add a map"
-                },
                 "legend": {
                     "title": "Legend",
                     "caption": "add a legend"
+                }, 
+                "map": {
+                    "title": "Map",
+                    "caption": "add a map"
                 },
                 "chart": {
                     "title": "Chart",
@@ -2093,7 +2093,7 @@
                 "line": "Display Legend",
                 "pie": "Display Legend",
                 "bar": "Display Legend",
-                "gauge": "Display labels",
+                "gauge": "Display Legend",
                 "groupedBar": "Display Legend",
                 "groupedLineMarker": "Display Legend",
                 "overlaidArea": "Display Legend",
