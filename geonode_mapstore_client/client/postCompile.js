@@ -17,8 +17,15 @@ const distDirectory = 'dist';
 });
 
 // copy compiled files
-fs.moveSync(path.resolve(appDirectory, distDirectory, 'ms-translations'), path.resolve(appDirectory, staticPath, 'ms-translations'), { overwrite: true });
-message.title('copy ms-translations from MapStore Core');
+// fs.moveSync(path.resolve(appDirectory, distDirectory, 'ms-translations'), path.resolve(appDirectory, staticPath, 'ms-translations'), { overwrite: true });
+// message.title('copy ms-translations from MapStore Core');
+// fs.moveSync(path.resolve(appDirectory, distDirectory), path.resolve(appDirectory, staticPath, distDirectory), { overwrite: true });
+// message.title('copy dist folder to static/mapstore directory');
+
+// copy compiled files
+// fs.moveSync(path.resolve(appDirectory, staticPath, 'ms-translations'), path.resolve(appDirectory, staticPath, 'ms-translations'), { overwrite: true });
+// fs.moveSync(path.resolve(appDirectory, distDirectory, 'ms-translations'), path.resolve(appDirectory, staticPath, 'ms-translations'), { overwrite: true });
+// message.title('copy ms-translations from MapStore Core');
 fs.moveSync(path.resolve(appDirectory, distDirectory), path.resolve(appDirectory, staticPath, distDirectory), { overwrite: true });
 message.title('copy dist folder to static/mapstore directory');
 
