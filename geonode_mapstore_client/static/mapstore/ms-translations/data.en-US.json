@@ -1773,6 +1773,10 @@
                     "title": "Table",
                     "caption": "add a table"
                 },
+                "gauge": {
+                    "title": "Gauge",
+                    "caption": "add a Gauge Chart"
+                },
                 "counter": {
                     "title": "Counter",
                     "caption": "add a counter"
