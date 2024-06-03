@@ -1977,6 +1977,11 @@
                     "description": "Create a horizontal stacked bar chart to add to the map",
                     "caption": "horizontalStackedBar"
                 },
+                "singleHorizontalGroupedBar": {
+                    "title": "Single Horizontal Grouped Bar Chart",
+                    "description": "Create a single horizontal Grouped bar chart to add to the map",
+                    "caption": "singleHorizontalGroupedBar"
+                },
                 "horizontalGroupedBar": {
                     "title": "Horizontal Grouped Bar Chart",
                     "description": "Create a horizontal Grouped bar chart to add to the map",
@@ -2013,6 +2018,7 @@
                 "stackedBar": "X Attribute",
                 "horizontalStackedBar": "X Attribute",
                 "horizontalGroupedBar": "X Attribute",
+                "singleHorizontalGroupedBar": "X Attribute",
                 "counter": "Group By",
                 "default": "Group By"
             },
@@ -2085,6 +2091,7 @@
                 "stackedBar": "Y Attribute",
                 "horizontalStackedBar": "Y Attribute",
                 "horizontalGroupedBar": "Y Attribute",
+                "singleHorizontalGroupedBar": "Y Attribute",
                 "counter": "Use",
                 "default": "Use"
             },
@@ -2104,6 +2111,7 @@
                 "stackedBar": "Operation",
                 "horizontalStackedBar": "Operation",
                 "horizontalGroupedBar": "Operation",
+                "singleHorizontalGroupedBar": "Operation",
                 "counter": "Operation",
                 "default": "Operation"
             },
@@ -2122,6 +2130,7 @@
                 "stackedBar": "Color",
                 "horizontalStackedBar": "Color",
                 "horizontalGroupedBar": "Color",
+                "singleHorizontalGroupedBar": "Color",
                 "counter": "Color",
                 "default": "Color"
             },
@@ -2140,6 +2149,7 @@
                 "stackedBar": "Unit of measure",
                 "horizontalStackedBar": "Unit of measure",
                 "horizontalGroupedBar": "Unit of measure",
+                "singleHorizontalGroupedBar": "Unit of measure",
                 "counter": "Unit of measure",
                 "default": "Unit of measure"
             },
@@ -2158,6 +2168,7 @@
                 "donutChart": "Display Legend",
                 "stackedBar": "Display Legend",
                 "horizontalStackedBar": "Display Legend",
+                "singleHorizontalGroupedBar": "Display Legend",
                 "horizontalGroupedBar": "Display Legend"
             },
             "displaySecondAxis": {
