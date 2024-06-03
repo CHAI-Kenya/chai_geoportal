@@ -498,6 +498,7 @@
             "toggleLayerVisibility": "Toggle layer visibility",
             "toggleGroupVisibility": "Toggle group visibility",
             "displayLegendAndTools": "Display legend",
+            "displaySecondAxisAndTools": "Display second axis",
             "zoomToLayerExtent": "Zoom to layer extent",
             "addAnnotations": "Add annotations",
             "editAnnotations": "Edit annotations",
@@ -1956,6 +1957,11 @@
                     "description": "Create a bubble chart to add to the map",
                     "caption": "bubbleChart"
                 },
+                "singleGauge": {
+                    "title": "Single Gauge Angular Chart",
+                    "description": "Create a bubble chart to add to the map",
+                    "caption": "single Gauge Angular Chart"
+                },
                 "donutChart": {
                     "title": "Donut Chart",
                     "description": "Create a donut chart to add to the map",
@@ -1970,6 +1976,11 @@
                     "title": "Horizontal Stacked Bar Chart",
                     "description": "Create a horizontal stacked bar chart to add to the map",
                     "caption": "horizontalStackedBar"
+                },
+                "singleHorizontalGroupedBar": {
+                    "title": "Single Horizontal Grouped Bar Chart",
+                    "description": "Create a single horizontal Grouped bar chart to add to the map",
+                    "caption": "singleHorizontalGroupedBar"
                 },
                 "horizontalGroupedBar": {
                     "title": "Horizontal Grouped Bar Chart",
@@ -2002,10 +2013,12 @@
                 "overlaidArea": "X Attribute",
                 "scatterChart": "X Attribute",
                 "bubbleChart": "Group By",
+                "singleGauge": "Group By",
                 "donutChart": "Group By",
                 "stackedBar": "X Attribute",
                 "horizontalStackedBar": "X Attribute",
                 "horizontalGroupedBar": "X Attribute",
+                "singleHorizontalGroupedBar": "X Attribute",
                 "counter": "Group By",
                 "default": "Group By"
             },
@@ -2019,6 +2032,7 @@
                 "overlaidArea": "Y Attribute 2",
                 "scatterChart": "Y Attribute 2",
                 "bubbleChart": "Use 2", 
+                "singleGauge": "Use 2", 
                 "donutChart": "Use 2",
                 "stackedBar": "Y Attribute 2",
                 "horizontalStackedBar": "Y Attribute 2",
@@ -2072,10 +2086,12 @@
                 "overlaidArea": "Y Attribute",
                 "scatterChart": "Y Attribute",
                 "bubbleChart": "Use", 
+                "singleGauge": "Use", 
                 "donutChart": "Use",
                 "stackedBar": "Y Attribute",
                 "horizontalStackedBar": "Y Attribute",
                 "horizontalGroupedBar": "Y Attribute",
+                "singleHorizontalGroupedBar": "Y Attribute",
                 "counter": "Use",
                 "default": "Use"
             },
@@ -2090,10 +2106,12 @@
                 "overlaidArea": "Operation",
                 "scatterChart": "Operation",
                 "bubbleChart": "Operation",
+                "singleGauge": "Operation",
                 "donutChart": "Operation",
                 "stackedBar": "Operation",
                 "horizontalStackedBar": "Operation",
                 "horizontalGroupedBar": "Operation",
+                "singleHorizontalGroupedBar": "Operation",
                 "counter": "Operation",
                 "default": "Operation"
             },
@@ -2107,10 +2125,12 @@
                 "overlaidArea": "Color",
                 "scatterChart": "Color",
                 "bubbleChart": "Color",
+                "singleGauge": "Color",
                 "donutChart": "Color Ramp",
                 "stackedBar": "Color",
                 "horizontalStackedBar": "Color",
                 "horizontalGroupedBar": "Color",
+                "singleHorizontalGroupedBar": "Color",
                 "counter": "Color",
                 "default": "Color"
             },
@@ -2124,10 +2144,12 @@
                 "overlaidArea": "Unit of measure",
                 "scatterChart": "Unit of measure",
                 "bubbleChart": "Unit of measure",
+                "singleGauge": "Unit of measure",
                 "donutChart": "Unit of measure",
                 "stackedBar": "Unit of measure",
                 "horizontalStackedBar": "Unit of measure",
                 "horizontalGroupedBar": "Unit of measure",
+                "singleHorizontalGroupedBar": "Unit of measure",
                 "counter": "Unit of measure",
                 "default": "Unit of measure"
             },
@@ -2142,10 +2164,24 @@
                 "overlaidArea": "Display Legend",
                 "scatterChart": "Display Legend",
                 "bubbleChart": "Display Legend",
+                "singleGauge": "Display Legend",
                 "donutChart": "Display Legend",
                 "stackedBar": "Display Legend",
                 "horizontalStackedBar": "Display Legend",
+                "singleHorizontalGroupedBar": "Display Legend",
                 "horizontalGroupedBar": "Display Legend"
+            },
+            "displaySecondAxis": {
+                "line": "Display Second Axis",
+                "bar": "Display Second Axis",
+                "gauge": "Display Second Axis",
+                "groupedBar": "Display Second Axis",
+                "groupedLineMarker": "Display Second Axis",
+                "overlaidArea": "Display Second Axis",
+                "scatterChart": "Display Second Axis",
+                "bubbleChart": "Display Second Axis",
+                "singleGauge": "Display Second Axis",
+                "stackedBar": "Display Second Axis"
             },
             "advanced": {
               "displayCartesian": "Hide Grid",
@@ -2163,9 +2199,12 @@
               "forceTicks": "Never skip labels",
               "maxXAxisLabels": "The labels can not anyway be more than {max}",
               "yAxis":  "Y axis",
+              "yAxis1":  "Y axis 1",
               "yAxisType": "Type",
               "yAxisLabel": "Legend Label",
               "yAxisLabel1": "Legend 1 Label",
+              "yAxisLabel2": "Legend 2 Label",
+              "yAxisLabel3": "Legend 3 Label",
               "title": "Advanced Options",
               "legend": "Legend",
               "barChartType": "Bar Chart Type",
