@@ -2260,6 +2260,7 @@
               "format": "Format",
               "prefix": "Prefix",
               "suffix": "Suffix",
+              "decimalPlaces": "Decimal Places",
               "examples": "Examples",
               "formatExamples": "<div><ul><li><code>.0%</code>: rounded percentage, '12%'</li><li><code>.2s</code>:SI-prefix with two significant digits, '42M'</li><li><code>,.2r</code>: grouped thousands with two significant digits '4,200'</li></ul><em>More information about formatting syntax <a target=\"_blank\" href=\"https://d3-wiki.readthedocs.io/zh_CN/master/Formatting/\">here</a>.</em></div>",
               "formula": "Formula",
